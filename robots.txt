@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ink.posstree.com/sitemap.xml
