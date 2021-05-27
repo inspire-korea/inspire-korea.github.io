@@ -10,6 +10,7 @@ git push bb master
 cd _site
 git init
 git remote add origin https://github.com/inspire-korea/inspire-korea.github.io.git
+git checkout master
 git add .
 git commit -m 'release'
 git fetch
