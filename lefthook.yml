@@ -2,5 +2,6 @@ pre-commit:
   parallel: true
   commands:
     cspell:
+      exclude: .cspell.json
       run: npx cspell --gitignore --no-progress --color --show-suggestions {staged_files}
 
